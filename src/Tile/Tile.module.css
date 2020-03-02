@@ -1,14 +1,17 @@
 div.Tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 30px;
     height: 300px;
     width: 300px;
     text-align: center;
-    background-color: #1f4b17;
+    background-color: #e8e0d6;
     border-radius: 20px;
-    box-shadow: -3px -3px 7px #215f19, 3px 3px 5px #1a3815;
+    box-shadow: -3px -3px 7px #fffff6, 3px 3px 5px #c5beb6;
     transition: box-shadow 2s;
 }
 
 div.Tile:hover {
-    box-shadow: inset -3px -3px 7px #215f19, inset 3px 3px 5px #1a3815;
+    box-shadow: inset -3px -3px 7px #fffff6, inset 3px 3px 5px #c5beb6;
 }
