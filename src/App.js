@@ -1,5 +1,6 @@
 import React from 'react';
 import TileGrid from "./Tile/TileGrid";
+import "./App.css"
 
 function App() {
   return (
